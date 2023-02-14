@@ -10,10 +10,10 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form>
+	<form method="post">
 		<div>
 			<label for="name">Name8</label>
-		  <input id="name" type="text">
+		  <input id="name" type="text" required>
 		</div>
 		<div>
 			<label for="email">Email*</label>
@@ -22,9 +22,9 @@
 		<div>
 			<label>Gender*</label>
 		 <label for="male">Male</label>
-			<input id="male" type="radio"  name="gender" value="Male">
+			<input id="male" type="radio"  name="gender" value="Male" required>
 			<label for="female">Female</label>
-		  <input id="female" type="radio" name="gender" value="Female" >
+		  <input id="female" type="radio" name="gender" value="Female" required>
 		</div>
 		<div>
 			<label for="cars">Car Brands</label>
@@ -37,6 +37,10 @@
 		<div>
 			<label for="carage">Car Age*</label>
 			<input type="number" id="carage" required>
+		</div>
+		<div>
+			<label for="dop">Date of Purchase(dop)*</label>
+			<input type="date" id="dop" required>
 		</div>
 		<div>
 			<label for="password">Password*</label>
